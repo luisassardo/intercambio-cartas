@@ -2,7 +2,6 @@
 -- Run this in your Supabase SQL Editor
 
 -- Enable Row Level Security
-ALTER DATABASE postgres SET "app.jwt_secret" TO 'your-jwt-secret';
 
 -- Create participants table
 CREATE TABLE IF NOT EXISTS participants (
